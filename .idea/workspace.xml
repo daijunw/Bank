@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f26377-a514-492a-9bda-3fdb26f366d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Views/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Views/AdminMenuOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Views/ClientMenuOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/CreateClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/CreateClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/AdminMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/AdminMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Client/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Client/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Client/ClientMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Client/ClientMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Views/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Views/ViewFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Admin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Fxml/Admin/CreateClient.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fxml/Admin/CreateClient.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/CreateClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/CreateClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Fxml/Admin/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fxml/Admin/Admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Client/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Client/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Client/ClientMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Client/ClientMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Views/ViewFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Views/ViewFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -57,6 +67,13 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.bank.App" />
+      <module name="Bank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Bank" />
       <method v="2">
@@ -84,7 +101,7 @@
       <workItem from="1669656349581" duration="860000" />
       <workItem from="1669663986948" duration="18000" />
       <workItem from="1669664021887" duration="40000" />
-      <workItem from="1669664073748" duration="3562000" />
+      <workItem from="1669664073748" duration="4880000" />
     </task>
     <servers />
   </component>
