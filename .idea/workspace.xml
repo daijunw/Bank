@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f26377-a514-492a-9bda-3fdb26f366d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/ClientsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/DepositController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Clients.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Deposit.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Clients.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Deposit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/AdminMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Controllers/Admin/AdminMenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Views/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Views/ViewFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fxml/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Controllers/Admin/AdminMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bank/Views/ViewFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bank/Views/ViewFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +90,7 @@
       <workItem from="1669656349581" duration="860000" />
       <workItem from="1669663986948" duration="18000" />
       <workItem from="1669664021887" duration="40000" />
-      <workItem from="1669664073748" duration="8691000" />
+      <workItem from="1669664073748" duration="9199000" />
     </task>
     <servers />
   </component>
