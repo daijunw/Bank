@@ -13,12 +13,12 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-//        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/Fxml/Login.fxml"));
-//        Scene scene = new Scene(fxmlLoader.load());
-//        stage.setScene(scene);
-//        stage.show();
-//        ViewFactory viewFactory = new ViewFactory();
-//        viewFactory.showLoginWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/Fxml/Login.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setScene(scene);
+        stage.show();
+        ViewFactory viewFactory = new ViewFactory();
+        viewFactory.showLoginWindow();
         Model.getInstance().getViewFactory();
 
     }
