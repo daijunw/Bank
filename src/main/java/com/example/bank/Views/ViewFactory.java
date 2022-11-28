@@ -1,5 +1,6 @@
 package com.example.bank.Views;
 
+import com.example.bank.Controllers.Admin.AdminController;
 import com.example.bank.Controllers.Client.ClientController;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -17,8 +18,14 @@ public class ViewFactory {
     private AnchorPane transactionsView;
     private AnchorPane accountsView;
 
+
+    //Admin Views
+    private final StringProperty adminSelectedMenuItem;
+    private AnchorPane createClientView;
+
     public ViewFactory(){
-        this.clientSelectedMenuItem = new SimpleStringProperty();
+        this.clientSelectedMenuItem = new SimpleStringProperty("");
+        this.adminSelectedMenuItem = new SimpleStringProperty("");
     }
     public StringProperty getClientSelectedMenuItem() {
         return clientSelectedMenuItem;
@@ -59,10 +66,7 @@ public class ViewFactory {
         return accountsView;
     }
 
-    public void showLoginWindow(){
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/login.fxml"));
-        createStage(loader);
-    }
+
     public void showClientWindow(){
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/Client/Client.fxml"));
         ClientController clientController = new ClientController();
@@ -70,6 +74,30 @@ public class ViewFactory {
         createStage(loader);
     }
 
+//    Admin view section
+
+
+    public StringProperty getAdminSelectedMenuItem() {
+        return adminSelectedMenuItem;
+    }
+
+    public AnchorPane getCreateClientView() {
+        if(createClientView == null){
+            try {
+                createClientView = new FXMLLoader(getClass().getResource("/Fxml/Admin/CreateClient.fxml")).load();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+        return createClientView;
+    }
+
+    public void showAdminWindow(){
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/Admin/Admin.fxml"));
+        AdminController clientController = new AdminController();
+        loader.setController(clientController);
+        createStage(loader);
+    }
     private void createStage(FXMLLoader loader) {
         Scene scene = null;
         try {
@@ -82,6 +110,10 @@ public class ViewFactory {
         stage.setScene(scene);
         stage.setTitle("Neu Bank");
         stage.show();
+    }
+    public void showLoginWindow(){
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/login.fxml"));
+        createStage(loader);
     }
 
     public void closeStage(Stage stage) {
